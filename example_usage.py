@@ -25,4 +25,5 @@ def main():
         print(" CO2: ", sensor._eCO2, "ppm\n", "TVOC: ", sensor._eTVOC, "ppb\n")
         #wait
         utime.sleep(1)
-        
+
+main()
